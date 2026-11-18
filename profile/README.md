@@ -88,7 +88,6 @@
 | **SC5** | Desktop POS | [suntek-sdk-sc5-sk6](https://github.com/SUNTEK-Official/suntek-sdk-sc5-sk6) | [suntek-demo-pos-checkout](https://github.com/SUNTEK-Official/suntek-demo-pos-checkout) | Standard App Key (System Service IPC) |
 | **ST5** | Desktop POS / Ticket Validator | [suntek-sdk-st5](https://github.com/SUNTEK-Official/suntek-sdk-st5) | [suntek-demo-pos-checkout](https://github.com/SUNTEK-Official/suntek-demo-pos-checkout) | Standard App Key (System Service IPC) |
 | **FL5** | Attendance / Access | [suntek-docs](https://github.com/SUNTEK-Official/suntek-docs) | Mock HTTP Server in `suntek-docs` | HTTP JSON Protocol Only |
-| **N150** | Tablet POS (Windows) | [suntek-docs](https://github.com/SUNTEK-Official/suntek-docs) | — | EV-Signed Drivers in Releases |
 | **SK1** | Self-Service Kiosk | [suntek-sdk-sc1-sk1](https://github.com/SUNTEK-Official/suntek-sdk-sc1-sk1) | [suntek-demo-pos-checkout](https://github.com/SUNTEK-Official/suntek-demo-pos-checkout) | Standard App Key (System Service IPC) |
 | **SK1-15** | Self-Service Kiosk | [suntek-sdk-sc1-sk1](https://github.com/SUNTEK-Official/suntek-sdk-sc1-sk1) | [suntek-demo-pos-checkout](https://github.com/SUNTEK-Official/suntek-demo-pos-checkout) | Standard App Key (System Service IPC) |
 | **SK5** | Self-Service Kiosk | [suntek-sdk-sk5-fingerprint](https://github.com/SUNTEK-Official/suntek-sdk-sk5-fingerprint) | Included in repo (`android/` & `windows/`) | Standard App Key (USB Host) |
