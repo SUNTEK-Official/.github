@@ -1,0 +1,61 @@
+name: Hardware / SDK Issue Report
+description: Report a bug or hardware integration issue with a SUNTEK SDK or sample application.
+title: "[Model] <Short summary of the issue>"
+labels: ["triage"]
+body:
+  - type: dropdown
+    id: model
+    attributes:
+      label: Hardware Model
+      description: Select the exact SUNTEK terminal or peripheral model.
+      options:
+        - SM1
+        - SM6
+        - SC1
+        - SC5
+        - ST5
+        - FL5
+        - SK1
+        - SK1-15
+        - SK5
+        - SK6
+        - SK7
+        - SK27-E
+        - FA5
+        - FA8
+        - FA10
+        - FS8
+        - FS10
+        - AI-Box
+        - SCP80
+        - PV2 (Cloud Speaker)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: OS Version & Build Number
+      description: "Found in Settings -> About Device -> Build Number (e.g., Android 14 / SUNTEK_SC1_V1.2.0)"
+      placeholder: "Android 14 / Build ..."
+    validations:
+      required: true
+  - type: input
+    id: sdk_version
+    attributes:
+      label: SDK Version
+      placeholder: "e.g., v2.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description & Reproduction Steps
+      description: Describe what happened, expected behavior, and minimal steps to reproduce.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs (adb logcat / Exception Stack Trace)
+      render: shell
