@@ -121,6 +121,7 @@ flowchart TD
 
 - **Documentation Center**: [`suntek-docs`](https://github.com/SUNTEK-Official/suntek-docs)
 - **MDM User & Admin Guides**: [`suntek-mdm-docs`](https://github.com/SUNTEK-Official/suntek-mdm-docs)
+- **Windows & Ubuntu Peripheral Guides**: [`suntek-peripherals-docs`](https://github.com/SUNTEK-Official/suntek-peripherals-docs) — Thermal printers (XP-series TSPL & MP80PC), barcode scanners, and RGB LED controllers
 - **Cross-Device Retail Demo**: [`suntek-demo-pos-checkout`](https://github.com/SUNTEK-Official/suntek-demo-pos-checkout)
 - **Offline Edge LLM Assistant**: [`suntek-demo-edge-llm`](https://github.com/SUNTEK-Official/suntek-demo-edge-llm)
 - **Machine-Readable Model Index**: [`hardware-catalog.json`](https://github.com/SUNTEK-Official/.github/blob/main/hardware-catalog.json)
